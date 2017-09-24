@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html  prefix="og: http://ogp.me/ns#">
 <title>K.D. Dental & Medical Centre</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -14,11 +14,44 @@
 <meta name="theme-color" content="#2c2d31">
 <link rel="stylesheet" href="w3.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<meta name="Keywords" content="kd dental medical center kddmc meethapur" />
+<meta name="Description" content="K.D. Dental & Medical Centre for all kinds of Dental solutions. Dental Bleaching
+Dental X-Ray (Digital) AERB Certified
+Surgical Extraction
+Gum Surgeries
+Dental Implants
+Permanent Filling
+Painless R.C.T
+Complete & Partial Denture
+Tooth Jewelry
+Kid Dentistry
+Orthodontic Treatment
+Scaling & Curettage" />
+<meta property="og:title" content="K.D. Dental & Medical Centre" />
+<meta property="og:image" content="logo.png" />
+<meta property="og:description" content="K.D. Dental & Medical Centre for all kinds of Dental solutions. Dental Bleaching
+Dental X-Ray (Digital) AERB Certified
+Surgical Extraction
+Gum Surgeries
+Dental Implants
+Permanent Filling
+Painless R.C.T
+Complete & Partial Denture
+Tooth Jewelry
+Kid Dentistry
+Orthodontic Treatment
+Scaling & Curettage" />
 <style>
-a{text-decoration: none;}
-.montserrat{font-family: 'Montserrat', sans-serif;}
-/* Create a Parallax Effect */
-.parallax {
+  a {
+    text-decoration: none;
+  }
+
+  .montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  /* Create a Parallax Effect */
+
+  .parallax {
     /* The image used */
     background-image: url("gallery.jpg");
 
@@ -30,59 +63,84 @@ a{text-decoration: none;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
 }
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
 </style>
+
 <body class="montserrat">
 
 
-  <div class="w3-bar ">
+  <div class="w3-bar w3-white">
     <div class="w3-content ">
 
-      <img  class="w3-bar-item w3-button" src="logo.png" alt="kd dental logo" ><br/>
-      <a class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-hide-large w3-hide-medium" onclick="myFunction()"><br/>☰</a><br/>
-  			<div id="menu" class="w3-right w3-hide-small w3-center">
+      <img class="w3-bar-item w3-button" src="logo.png" alt="kd dental logo"><br/>
+      <a class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-hide-large w3-hide-medium" onclick="myFunction(this)"><div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div></a><br/>
+      <div id="menu" class="w3-right w3-hide-small w3-center">
 
-          <a href="//fb.me/KelaDeviDental" target="_blank" class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-mobile w3-border-bottom ">BLOG</a>
-          <a href="#about" class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-mobile w3-border-bottom ">ABOUT US</a>
-          <a href="#here" class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-mobile w3-border-bottom ">GETTING HERE</a>
-          <a href="#services" class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-mobile w3-border-bottom ">SERVICES</a>
+        <a href="//fb.me/KelaDeviDental" target="_blank" class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-mobile w3-border-bottom ">BLOG</a>
+        <a href="#about" class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-mobile w3-border-bottom ">ABOUT US</a>
+        <a href="#gallery" class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-mobile w3-border-bottom ">GALLERY</a>
+        <a href="#here" class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-mobile w3-border-bottom ">GETTING HERE</a>
+        <a href="#services" class="w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-none w3-mobile w3-border-bottom ">SERVICES</a>
 
-  			</div>
+      </div>
 
-  	</div>
+    </div>
   </div>
 
-<div  class="w3-container"><br/><br/>
-          <div class="w3-half w3-padding-large">
-            <h1 class="w3-xxxlarge w3-text-green">Discover</h1>
-            <h2 class="w3-xxxlarge"><b>K.D. Dental & Medical Center</b></h2>
-            <p><span class="w3-large">At K.D. Dental & Medical Center we offer quality dental<br/> services with a team of specialists.</span></p>
+  <div class="w3-container w3-white"><br/><br/>
+    <div class="w3-half w3-padding-large">
+      <h1 class="w3-xxxlarge w3-text-green">Discover</h1>
+      <h2 class="w3-xxxlarge"><b>K.D. Dental & Medical Center</b></h2>
+      <p><span class="w3-large">At K.D. Dental & Medical Center we offer quality dental<br/> services with a team of specialists.</span></p>
 
-          </div>
-          <div id="services" class="w3-half w3-card-12">
-            <img src="services.png" class="w3-image w3-right" width="100%" >
-          </div>
-</div>
-<div id="about" class="w3-container"><br/><br/><br/><br/>
-  <h1 class="w3-xxxlarge w3-text-green w3-center w3-wide">ABOUT US</h1>
-  <br/><br/>
+    </div>
+    <div id="services" class="w3-half w3-card-12 w3-white">
+      <img src="services.png" class="w3-image w3-right" width="100%">
+    </div>
+  </div>
+  <div id="about" class="w3-container w3-white"><br/><br/><br/><br/>
+    <h1 class="w3-xxxlarge w3-text-green w3-center w3-wide">ABOUT US</h1>
+    <br/><br/>
 
 
-          <div class="w3-half w3-padding-large w3-right">
-            <h1 class="w3-xxlarge w3-text-green">K.D. Dental & Medical Center</h1>
-            <p><span class="w3-large">K.D. Dental & Medical Centre for all kinds of Dental solutions.</p>
+    <div class="w3-half w3-padding-large w3-right w3-white">
+      <h1 class="w3-xxlarge w3-text-green">K.D. Dental & Medical Center</h1>
+      <p><span class="w3-large">K.D. Dental & Medical Centre for all kinds of Dental solutions.</p>
               <br>Dental Bleaching
               <br>Dental X-Ray (Digital) AERB Certified
               <br>Surgical Extraction
               <br>Gum Surgeries
-<br>Dental Implants
-<br>Permanent Filling
-<br>Painless R.C.T
-<br>Complete & Partial Denture
-<br>Tooth Jewelry
-<br>Kid Dentistry
-<br>Orthodontic Treatment
-<br>Scaling & Curettage
+              <br>Dental Implants
+              <br>Permanent Filling
+              <br>Painless R.C.T
+              <br>Complete & Partial Denture
+              <br>Tooth Jewelry
+              <br>Kid Dentistry
+              <br>Orthodontic Treatment
+              <br>Scaling & Curettage
+              <br/>
 
 
           </div>
@@ -92,75 +150,155 @@ a{text-decoration: none;}
 
 </div>
 
-<div class="w3-container w3-center w3-padding-48" >
+<div class="w3-container w3-center w3-padding-48 w3-white" >
   <div class="w3-container parallax w3-display-container">
     <div class="w3-display-middle w3-text-white">
       <b>
-      <span class="w3-xxlarge w3-text-green w3-wide">MEET OUR DOCTORS</span><br/><br/>
-      <div class="w3-half">
-        DR. RUCHI GOEL<br/>
-        <span class="w3-opacity">B.D.S. M.I.D.A</span>
-      </div>
-      <div class="w3-half">
-        DR. PRACHI GOEL<br/>
-        <span class="w3-opacity">B.D.S. M.I.D.A</span>
-      </div>
-    </b>
+      <span class="w3-xxlarge w3-text-green w3-wide"><a href="tel:+911126666694">Call Us : 011 2666 6694</a></span><br/><br/>
+
+        </b>
+    </div>
+  </div>
+  </div>
+
+
+
+<!-- Work Section -->
+<div class="w3-container w3-white" style="padding:64px 16px" id="gallery">
+  <h3 class="w3-center">CENTRE GALLERY</h3>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="/img/g1.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/img/g21.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/img/g9.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/img/g4.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="/img/g5.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/img/g6.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/img/g7.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/img/g8.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="/img/g2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/img/g10.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/img/g11.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/img/g3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K.D. Dental &amp; Medical Centre">
     </div>
   </div>
 </div>
 
-
-
-
-<div class="w3-container w3-center w3-padding-48" id="here">
-  <span class="w3-xxlarge"><b>Getting Here</b></span>
-  <br/><br/>
-  <div class="w3-card-12 w3-content">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.734448249707!2d77.31656341473732!3d28.48754288247528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce71b0fce138b%3A0xfa1806716345201!2sK.D.+Dental+%26+Medical+Centre!5e0!3m2!1sen!2sin!4v1505982409064" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
   </div>
-  <br/><br/>
-  102-B, Sindhu Farm Road, Meethapur Extension,
-  Badarpur, Delhi-44
-  <br/>
-  <a href="tel:+911126666694">011 2666 6694</a>
 </div>
 
-<div class="w3-container w3-center w3-green w3-padding-32" style="background-image: url('tooth.png');background-repeat: repeat;">
-  <p class="w3-padding w3-xlarge"><a href="tel:+911126666694">Call Us : 011 2666 6694</a></span>
-</div >
 
-<footer class="w3-center" style="background-color:#1b1c21;margin-top:-15px">
-  <p class="w3-padding-64 " style="border-bottom:1px solid #2c2d31!important;">
-    <img src="logo.svg" alt="kd dental logo" style="width:150px">
-  </p>
-  <div class="w3-padding-large">
-    <p class="w3-padding-large  w3-text-grey">
-      102-B, Sindhu Farm Road, Meethapur Extension,
-      Badarpur, Delhi-44
-      <br/>
-      <a href="tel:+911126666694">011 2666 6694</a>
+
+
+
+  <div class="w3-container w3-center w3-padding-48 w3-white" id="here">
+    <span class="w3-xxlarge"><b>Getting Here</b></span>
+    <br/><br/>
+    <div class="w3-card-12 w3-content w3-grey">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.734448249707!2d77.31656341473732!3d28.48754288247528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce71b0fce138b%3A0xfa1806716345201!2sK.D.+Dental+%26+Medical+Centre!5e0!3m2!1sen!2sin!4v1505982409064"
+        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <br/><br/> 102-B, Sindhu Farm Road, Meethapur Extension, Badarpur, Delhi-44
+    <br/>
+    <a href="tel:+911126666694">011 2666 6694</a>
+  </div>
+
+  <div id="previousSibling" class="w3-container w3-center w3-green w3-padding-32 w3-large w3-card-12" style="background-image: url('tooth.png');background-repeat: repeat;margin-bottom:-15px">
+    <div class="w3-padding w3-large w3-content">
+      <p class="w3-xlarge">KEY MEMBERS</p>
+      <div class="w3-half">
+        DR. RUCHI GOEL<br/>
+        <span class="w3-opacity">B.D.S. M.I.D.A</span><br><br> AJAY GOEL<br/>
+        <span class="w3-opacity">DIRECTOR</span>
+      </div>
+      <div class="w3-half">
+        DR.PRACHI GOEL<br/>
+        <span class="w3-opacity">B.D.S. M.I.D.A</span><br><br> ANAND GOEL<br/>
+        <span class="w3-opacity">DIRECTOR</span>
+      </div>
+    </div>
+  </div>
+  <footer id="footer" class="w3-center" style="background-color:#1b1c21;">
+    <p class="w3-padding-64 " style="border-bottom:1px solid #2c2d31!important;">
+      <img src="logo.svg" alt="kd dental logo" style="width:150px">
     </p>
-    <p class="w3-padding  w3-text-grey">
-      <a href="//fb.me/KelaDeviDental" target="_blank">
+    <div class="w3-padding-large">
+      <p class="w3-padding-large  w3-text-grey">
+        102-B, Sindhu Farm Road, Meethapur Extension, Badarpur, Delhi-44
+        <br/>
+        <a href="tel:+911126666694">011 2666 6694</a>,
+        <a href="tel:+919821578757">9821 578 757</a>
+      </p>
+      <p class="w3-padding  w3-text-grey">
+        <a href="//fb.me/KelaDeviDental" target="_blank">
         <svg width="30px" height="5%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 155.139 155.139" style="enable-background:new 0 0 155.139 155.139;" xml:space="preserve"><g><path id="f_1_" d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184 c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452 v20.341H37.29v27.585h23.814v70.761H89.584z" fill="#fff"/></g></svg>
       </a>
-    </p>
+      </p>
 
-  </div>
-  <a href="//www.webices.com" target="_blank" class="w3-text-grey ">&copy; All Rights Reserved. | Powered By Webices.com</a>
+    </div>
+    <a href="//www.webices.com" target="_blank" class="w3-text-grey ">&copy; All Rights Reserved. | Website By Webices.com</a>
 
-</footer>
-<script>
-function myFunction() {
-    var x = document.getElementById("menu");
-    if (x.className.indexOf("w3-hide-small") == -1) {
+  </footer>
+  <script>
+    function myFunction(bars) {
+      var x = document.getElementById("menu");
+      if (x.className.indexOf("w3-hide-small") == -1) {
         x.className += " w3-hide-small";
-    } else {
+      } else {
         x.className = x.className.replace(" w3-hide-small", "");
+      }
+      bars.classList.toggle("change");
     }
+    window.onload = function () {
+      // cutrain reveal effect
+      var footer =    document.getElementById("footer");
+      var previousSibling = document.getElementById('previousSibling');
+      previousSibling.style.marginBottom = footer.clientHeight+"px";
+      footer.style= "background-color:#1b1c21;z-index:-10;left: 0;right: 0;bottom: 0; position: fixed;";
+   }
+   // Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
 }
-</script>
+  </script>
 
 </body>
+
 </html>
